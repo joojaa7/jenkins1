@@ -5,8 +5,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/joojaa7/jenkins1'
-                echo 'Checking'
+                git branch: 'main',
+                url : 'https://github.com/joojaa7/jenkins1'
             }
         }
 
