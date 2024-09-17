@@ -6,6 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git 'https://github.com/joojaa7/jenkins1'
+                echo 'Checking'
             }
         }
 
